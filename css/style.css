@@ -52,7 +52,11 @@ img {
     }
 
     .row figure:last-child {
-        grid-column: span 2;
+        grid-column: 1 / span 2;
+    }
+
+    .row {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -62,11 +66,7 @@ img {
     }
 
     .row figure:nth-child(3n) {
-        grid-column: span 2;
-    }
-
-    .row {
-        grid-template-columns: 1fr 1fr;
+        grid-column: 1 / span 2;
     }
 }
 
