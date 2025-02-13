@@ -37,6 +37,7 @@ img {
 
 .row {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
@@ -62,6 +63,10 @@ img {
 
     .row figure:nth-child(3n) {
         grid-column: span 2;
+    }
+
+    .row {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
